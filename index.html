@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Matemasie&family=Mooli&display=swap" rel="stylesheet">
+    <title>As aventuras do sapinho.</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="sapinho-passo0.jpg" alt="">
+            <p>“Você é um sapinho e precisa chegar ao outro lado da lagoa pulando nas vitórias-régias. Você não quer nadar pela lagoa pois não gosta de lavar o pé (e ele tem chulé), então não caia na água.”</p>
+            <button class="btn-proximo" data-proximo="1">Direita.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Você acertou! Mas precisa chegar mais longe para atravessar a lagoa. Continue pulando!"</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="3">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="sapinho-passo2.jpg" alt="">
+            <p>"Você errou! Não conseguiu chegar até a vitórias-régia e caiu. Mas não desista, tente novamente!"</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Acertou! Mas ainda falta muito para chegar ao final."</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="4">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Parabéns! Continue determinado e logo chegará lá!"</p>
+            <button class="btn-proximo" data-proximo="5">Direita.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Está indo bem! Siga pulando."</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="6">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Até agora está acertando! Mas o que é aquilo? Oh, não! Há mais um caminho que é possível seguir agora. Bom... tente sua sorte!."</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="2">Meio.</button>
+            <button class="btn-proximo" data-proximo="7">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Falta pouco, então não desista agora!"</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="8">Meio.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Quase lá, apenas mais algumas!"</p>
+            <button class="btn-proximo" data-proximo="9">Direita.</button>
+            <button class="btn-proximo" data-proximo="2">Meio.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Você já consegue ver o final da lagoa! Vamos lá!"</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="10">Meio.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="sapinho-outrospassos.jpeg" alt="">
+            <p>"Só mais uma! Você consegue!"</p>
+            <button class="btn-proximo" data-proximo="2">Direita.</button>
+            <button class="btn-proximo" data-proximo="11">Meio.</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="sapinho-passo11.jpg" alt="">
+            <p>"Parabéns, você chegou ao final da lagoa sem se molhar! Mas já está cansado, que tal descansar antes de voltar a pular, hm?"</p>
+            <button class="btn-proximo" data-proximo="0">Jogar novamente.</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
